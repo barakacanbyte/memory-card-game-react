@@ -24,9 +24,12 @@ function App() {
     <>
       <div className="header">
         <h1>Pokémon!</h1>
+        <br />
+
         <div className="scoreboard">
           <p>Highscore: {highscore}</p>
           <p>Score: {score}</p>
+          <h6>* Don't click a card twice!</h6>
         </div>
       </div>
       <div className="card-input">
